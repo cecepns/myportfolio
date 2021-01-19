@@ -14,14 +14,14 @@ function Navbar() {
             path: '/',
             menuName: 'Home'
         }, {
-            path: '/ekstrakurikuler',
-            menuName: 'Ekstrakurikuler'
+            path: '/about',
+            menuName: 'About'
         }, {
-            path: '/contact',
-            menuName: 'Kontak'
+            path: '/resume',
+            menuName: 'Resume'
         }, {
-            path: '/news',
-            menuName: 'Berita'
+            path: '/services',
+            menuName: 'Services'
         }
     ];
 
