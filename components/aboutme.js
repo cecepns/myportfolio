@@ -18,9 +18,18 @@ function AboutMe() {
                         <p className="tracking-wide leading-7 font-medium opacity-60">
                             <Typewriter
                                 options={{
-                                strings: ['i am a Front End web developer & Graphic designer, i was born in indramayu 29 april 2001 and now 19 years old. I am very interested in the world of technology which is trending and has its own uniqueness. On the other hand, I am also interested in digital business and looking for crazy ideas for businesses that can compete internationally.'],
+                                strings: [
+                                    'i am a Front End web developer',
+                                    'Graphic designer',
+                                    'UI/UX Designer',
+                                    'Motion Grapher',
+                                    'i was born in indramayu 29 april 2001 and now 19 years old',
+                                    'I am very interested in the world of technology which is trending and has its own uniqueness. On the other hand, I am also interested in digital business and looking for crazy ideas for businesses that can compete internationally.'
+                                ],
                                 autoStart: true,
-                                loop: false
+                                delay: 100,
+                                changeDelay: 200,
+                                loop: true
                             }}/>
 
                         </p>

@@ -4,13 +4,13 @@ function Skills() {
     return (
         <div className="bg-white">
             <h2
-                className="text-left font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 my-6 ">
+                className="text-center font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 my-6 ">
                 <span className="text-3xl">
                     Qualification
                 </span>
                 <br></br>
                 <span className="text-primary">
-                    My Education
+                    My Skills
                 </span>
             </h2>
 
