@@ -6,7 +6,7 @@ function Education() {
         <div className="container mx-auto px-4">
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="flex justify-left my-8">
+                <div className="flex justify-left my-8 hidden md:block">
                     <img
                         className=""
                         src="aku.png"

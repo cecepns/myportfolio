@@ -1,0 +1,9 @@
+.filter {
+    filter: grayscale(1);
+    transition: all .3s ease;
+
+    &:hover {
+        filter: inherit;
+    }
+
+}
