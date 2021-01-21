@@ -1,6 +1,10 @@
 import Typewriter from 'typewriter-effect';
 
 function AboutMe() {
+    const handleHire = ()=> {
+        window.open('https://api.whatsapp.com/send/?phone=6282214094779&text=bismillah');
+    }
+
     return (
         <div id="home" className="bg-white pt-12 bg-right bg-no-repeat" style={{backgroundImage: "url(/waves.svg)", backgroundBlendMode: "hard-light"}}>
             <div className="container mx-auto px-4">
@@ -34,7 +38,7 @@ function AboutMe() {
 
                         </div>
 
-                        <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ...">Hire Me</button>
+                        <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ..." onClick={handleHire}>Hire Me</button>
                     </div>
                     <div className="flex justify-center">
                         <img className="" src="/aku.png" alt="no pictures"></img>

@@ -6,13 +6,9 @@ import Navbar from '../components/navbar'
 export default function Home() {
   return (
     <>
-    {/* <Navbar/> */}
     <AboutMe/>
     <Education/>
     <Skills/>
-    {/* <Footer/> */}
-
-    {/* <AboutMe/> */}
     </>
   )
 }

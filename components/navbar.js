@@ -1,6 +1,4 @@
 import style from './navbar.module.scss'
-// import Link from 'next/link'
-import Logo from 'next/image'
 import {useState, useEffect} from 'react'
 import {useRouter} from 'next/router'
 import {Link} from 'react-scroll'
