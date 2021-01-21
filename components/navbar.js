@@ -1,40 +1,31 @@
 import style from './navbar.module.scss'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Logo from 'next/image'
 import {useState, useEffect} from 'react'
 import {useRouter} from 'next/router'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faSearch} from '@fortawesome/free-solid-svg-icons'
-// import Search from '../components/searchList'
+import {Link} from 'react-scroll'
 
 function Navbar() {
 
     const menu = [
         {
-            path: '/',
+            path: 'home',
             menuName: 'Home'
         }, {
-            path: '/about',
-            menuName: 'About'
+            path: 'education',
+            menuName: 'Education'
         }, {
-            path: '/resume',
-            menuName: 'Resume'
-        }, {
-            path: '/services',
-            menuName: 'Services'
+            path: 'skills',
+            menuName: 'Skills'
         }
     ];
 
     const router = useRouter();
-    const pathName = router.pathname
+    const [pathName,setPathname] = useState(false)
 
     const [toggle,
         setToggle] = useState(true);
 
-    const [search,
-        setSearch] = useState(true)
-
-    const handleSearch = () => setSearch(!search);
 
     const handleToggle = () => {
         setToggle(!toggle);
@@ -43,18 +34,21 @@ function Navbar() {
         }
     }
 
-    const handleCallback = (params) => {
-        setSearch(params)
-        if (toggle === false) {
-            setToggle(true)
-        }
+
+    const handleSetActive = ()=> {
+        console.log('ok')
     }
+
+    const handleSetInactive = ()=> {
+        console.log('not active')
+    }
+
 
     return (
 
         <div className={style.wrapper}>
             <div className={style.logoWrapper}>
-                Personal
+                بسرعة
             </div>
 
             <div
@@ -63,13 +57,19 @@ function Navbar() {
                 : style.menuWrapper + " " + style.menuWrapperActive}>
                 {menu.map((item, index) => (
 
-                    <Link key={index} href={item.path}>
-                        <a
-                            className={pathName === item.path
-                            ? style.menuItem + " " + style.menuItemActive
-                            : style.menuItem}
-                            onClick={handleToggle}>
-                            {item.menuName}</a>
+                    <Link
+                        className={style.menuItem}
+                        activeClass={style.menuItem + " " + style.menuItemActive}
+                        key={index}
+                        to={item.path}
+                        spy={true}
+                        
+                        smooth={'easeOutCubic'}
+                        offset={-50}
+                        onSetActive={handleSetActive}
+                        onSetInactive={handleSetInactive}>
+                        
+                            {item.menuName}
 
                     </Link>
 

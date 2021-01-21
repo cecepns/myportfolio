@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 function AboutMe() {
     return (
-        <div className="bg-white pt-12">
+        <div id="home" className="bg-white pt-12 bg-right bg-no-repeat" style={{backgroundImage: "url(/waves.svg)", backgroundBlendMode: "hard-light"}}>
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="mt-12">
@@ -15,7 +15,7 @@ function AboutMe() {
                                 Cecep Nandang
                             </span>
                         </h2>
-                        <p className="tracking-wide leading-7 font-medium opacity-60">
+                        <div className="tracking-wide leading-7 font-medium opacity-60">
                             <Typewriter
                                 options={{
                                 strings: [
@@ -32,7 +32,7 @@ function AboutMe() {
                                 loop: true
                             }}/>
 
-                        </p>
+                        </div>
 
                         <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ...">Hire Me</button>
                     </div>
