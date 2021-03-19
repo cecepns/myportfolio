@@ -1,8 +1,8 @@
 export default function Portfolio() {
     return (
-        <div id="portfolio" className="bg-white min-h-screen flex flex-col justify-center column-column">
+        <div id="portfolio" className="my-8 bg-white min-h-screen flex flex-col justify-center column-column">
             <h2
-                className="text-center font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90  mb-12">
+                className="text-center font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90  mb-6 md:mb-12">
                 <span className="text-primary">
                     Portfolio
                 </span>
