@@ -8,7 +8,7 @@ function Navbar() {
     const menu = [
         {
             path: 'home',
-            menuName: 'Home'
+            menuName: 'AboutMe'
         }, {
             path: 'education',
             menuName: 'Education'
@@ -19,6 +19,10 @@ function Navbar() {
         , {
             path: 'experience',
             menuName: 'Experience'
+        }
+        , {
+            path: 'portfolio',
+            menuName: 'Portfolio'
         }
     ];
 

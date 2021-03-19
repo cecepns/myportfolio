@@ -9,11 +9,12 @@ module.exports = {
             'primary': '#e91e63',
             'white': '#fff'
         },
-        backgroundColor: {
+        backgroundColor: theme => ({
+            ...theme('colors'),
             'primary': '#e91e63',
             'graysmooth': '#F4F4FF',
-            'white': '#fff'
-        }
+        })
+        
     },
     variants: {
         extend: {}

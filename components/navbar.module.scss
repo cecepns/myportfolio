@@ -8,9 +8,13 @@
     align-items: center;
     height: 80px;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    padding: 0 3rem;
+    padding: 0 6rem;
     top: 0;
-    opacity:.8;
+    opacity:.9;
+
+    @media (max-width: 992px) {
+            padding: 0 3rem;
+        }
     
     .logoWrapper {
         width: 100%;
