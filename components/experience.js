@@ -26,7 +26,7 @@ function Experience() {
                                 size="lg"
                                 color="#4ade80"/>
                             <p className="tracking-wide leading-7 font-medium opacity-60 ml-8">
-                                Ma'rifatussalaam Qur'anic Boarding School.
+                                Ma'rifatussalaam Quranic Boarding School.
                                 <br></br>
                                 <span className="text-primary">November 2019 - 2021</span>
                                 <br></br>
