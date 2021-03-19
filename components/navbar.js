@@ -16,6 +16,10 @@ function Navbar() {
             path: 'skills',
             menuName: 'Skills'
         }
+        , {
+            path: 'experience',
+            menuName: 'Experience'
+        }
     ];
 
     const router = useRouter();
@@ -61,9 +65,8 @@ function Navbar() {
                         key={index}
                         to={item.path}
                         spy={true}
-                        
+                        offset={-90}
                         smooth={'easeOutCubic'}
-                        offset={-50}
                         onSetActive={handleSetActive}
                         onSetInactive={handleSetInactive}>
                         

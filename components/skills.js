@@ -2,13 +2,10 @@ import Style from './skills.module.scss'
 
 function Skills() {
     return (
-        <div  className="bg-white">
-            <h2 id="skills"
-                className="text-center font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 my-6 ">
-                <span className="text-3xl">
-                    Qualification
-                </span>
-                <br></br>
+        <div id="skills" className="bg-white h-screen flex flex-col justify-center content-center">
+
+            <h2
+                className="text-center font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 mb-20 ">
                 <span className="text-primary">
                     My Skills
                 </span>
