@@ -8,7 +8,7 @@ function Education() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex justify-left my-8 hidden md:block">
-                        <img className="" src="aku2.png" alt="no pictures"></img>
+                        <img className="object-cover" src="aku2.png" alt="no pictures"></img>
                     </div>
                     <div>
                         <h2

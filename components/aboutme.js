@@ -41,7 +41,7 @@ function AboutMe() {
                         <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ..." onClick={handleHire}>Hire Me</button>
                     </div>
                     <div className="flex justify-center">
-                        <img className="" src="/aku.png" alt="no pictures"></img>
+                        <img className="object-cover" src="/aku.png" alt="no pictures"></img>
                     </div>
                 </div>
             </div>
