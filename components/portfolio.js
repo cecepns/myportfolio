@@ -10,7 +10,7 @@ export default function Portfolio() {
         window.open('https://www.pesisirkarya.com/2020/04/aplikasi-inventaris-sarana-dan-prasarana.html')
     }
     const linkPsb2 = () => {
-        window.open('https://ms-angularpbs.vercel.app')
+        window.open('https://ms-angularpsb.vercel.app')
     }
     const linkMs = () => {
         window.open('https://yayasan.marifatussalaam.org')
