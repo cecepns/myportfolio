@@ -6,7 +6,7 @@ function Education() {
         <div id="education" className="bg-graysmooth" style={{ backgroundImage: "url(/waves.svg)", backgroundBlendMode : "color-burn" }}>
             <div className="container mx-auto px-4">
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4">
                     <div className="flex justify-left my-8 hidden md:block">
                         <img className="object-contain w-full h-auto" src="aku2.png" alt="no pictures"></img>
                     </div>

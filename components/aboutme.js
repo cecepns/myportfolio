@@ -8,7 +8,7 @@ function AboutMe() {
     return (
         <div id="home" className="bg-white pt-12 bg-right bg-no-repeat" style={{backgroundImage: "url(/waves.svg)", backgroundBlendMode: "hard-light"}}>
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 gap-0 md:gap-4">
                     <div className="mt-12">
 
                         <h2
@@ -40,7 +40,7 @@ function AboutMe() {
 
                         <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ..." onClick={handleHire}>Hire Me</button>
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center h-auto">
                         <img className="object-contain w-full h-auto" src="/aku.png" alt="no pictures"></img>
                     </div>
                 </div>
