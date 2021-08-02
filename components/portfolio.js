@@ -34,7 +34,7 @@ export default function Portfolio() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
                     <div
-                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer"
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
                         onClick={linkAcp}>
                         <img className="w-full" src="/portfolio/acp.png" alt="Mountain"/>
                         <div className="px-6 py-4">
@@ -54,7 +54,7 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer" onClick={linkPsb}>
+                    <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3" onClick={linkPsb}>
                         <img className="w-full" src="/portfolio/psb.png" alt="Mountain"/>
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">Student Registration App</div>
@@ -74,7 +74,7 @@ export default function Portfolio() {
                     </div>
 
                     <div
-                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer"
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
                         onClick={linkInventory}>
                         <img className="w-full" src="/portfolio/inventory.png" alt="Mountain"/>
                         <div className="px-6 py-4">

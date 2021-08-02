@@ -13,9 +13,7 @@ function Education() {
                     <div>
                         <h2
                             className="text-left font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 my-6 ">
-                            <span className="text-3xl">
-                                Qualification
-                            </span>
+                            
                             <br></br>
                             <span className="text-primary">
                                 My Education
