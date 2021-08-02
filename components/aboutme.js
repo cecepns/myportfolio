@@ -8,7 +8,7 @@ function AboutMe() {
     return (
         <div id="home" className="bg-white pt-12 bg-right bg-no-repeat" style={{backgroundImage: "url(/waves.svg)", backgroundBlendMode: "hard-light"}}>
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 gap-0 md:gap-4">
+                <div className="flex flex-column md:flex-row justify-between">
                     <div className="mt-12">
 
                         <h2
