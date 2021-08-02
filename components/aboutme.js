@@ -23,7 +23,7 @@ function AboutMe() {
                             <Typewriter
                                 options={{
                                 strings: [
-                                    'i am a Front End web developer',
+                                    'i am a Front End developer',
                                     'Graphic designer',
                                     'UI/UX Designer',
                                     'Motion Grapher',
