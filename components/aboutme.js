@@ -8,8 +8,8 @@ function AboutMe() {
     return (
         <div id="home" className="bg-white pt-12 bg-right bg-no-repeat" style={{backgroundImage: "url(/waves.svg)", backgroundBlendMode: "hard-light"}}>
             <div className="container mx-auto px-4">
-                <div className="flex flex-column md:flex-row justify-between">
-                    <div className="mt-12">
+                <div className="flex flex-col md:flex-row justify-between">
+                    <div className="mt-12 w-full md:w1/2">
 
                         <h2
                             className="font-extrabold text-3xl md:text-5xl tracking-widest leading-tight text-opacity-90 mb-6 mt-0 md:mt-16">
@@ -40,8 +40,8 @@ function AboutMe() {
 
                         <button className="bg-primary py-2 px-8 my-8 text-white rounded-full  ..." onClick={handleHire}>Hire Me</button>
                     </div>
-                    <div className="flex justify-center h-full object-cover">
-                        <img className="object-contain w-full h-auto" src="/aku.png" alt="no pictures"></img>
+                    <div className="flex justify-center h-full object-cover w-full md:w1/2">
+                        <img className="object-cover w-full h-auto" src="/aku.png" alt="no pictures"></img>
                     </div>
                 </div>
             </div>
