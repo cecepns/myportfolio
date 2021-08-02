@@ -32,8 +32,8 @@ function AboutMe() {
                                 ],
                                 autoStart: true,
                                 delay: 100,
-                                changeDelay: 200,
-                                loop: false
+                                changeDelay: 300,
+                                loop: true
                             }}/>
 
                         </div>
