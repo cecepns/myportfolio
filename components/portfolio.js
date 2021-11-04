@@ -3,6 +3,15 @@ export default function Portfolio() {
     const linkAcp = () => {
         window.open('https://aksiciptapeduli.org')
     }
+    const linkAia = () => {
+        window.open('https://aia.internalpreview.com')
+    }
+    const linkNawa = () => {
+        window.open('https://nawakara.internalpreview.com/en/')
+    }
+    const linkBrofrank = () => {
+        window.open('https://brofrank.internalpreview.com/')
+    }
     const linkPsb = () => {
         window.open('https://psb.marifatussalaam.org')
     }
@@ -31,7 +40,30 @@ export default function Portfolio() {
             </h2>
 
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <div
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
+                        onClick={linkAia}>
+                        <img className="w-full" src="/portfolio/aia.png" alt="Mountain"/>
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">AIA X GoJeK</div>
+                            <p className="tracking-wide leading-6 font-medium opacity-60">
+                            AIA Financial is a life insurance company that was founded in 1983 and is headquartered in Jakarta.
+                            </p>
+                        </div>
+                        <div className="px-6 pt-4 pb-2 md:pb-0">
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Html</span>
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Scss</span>
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Tailwindcss</span>
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Javascript</span>
+                        </div>
+                    </div>
+
 
                     <div
                         className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
@@ -54,6 +86,26 @@ export default function Portfolio() {
                         </div>
                     </div>
 
+                    <div
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
+                        onClick={linkNawa}>
+                        <img className="w-full" src="/portfolio/nawakara.png" alt="Mountain"/>
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Nawakara - Security Solution</div>
+                            <p className="tracking-wide leading-6 font-medium opacity-60">
+                            Nawakara Perkasa Nusantara is a private corporate company engaged in providing security services.
+                            </p>
+                        </div>
+                        <div className="px-6 pt-4 pb-2 md:pb-0">
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Html</span>
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Scss</span>
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Javascript</span>
+                        </div>
+                    </div>
+
                     <div className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3" onClick={linkPsb}>
                         <img className="w-full" src="/portfolio/psb.png" alt="Mountain"/>
                         <div className="px-6 py-4">
@@ -70,6 +122,48 @@ export default function Portfolio() {
                                 className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bootstrap</span>
                             <span
                                 className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Jquery</span>
+                        </div>
+                    </div>
+
+                  
+                    <div
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
+                        onClick={linkPsb2}>
+                        <img className="w-full" src="/portfolio/psb2.png" alt="Mountain"/>
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Revamp Student Registration App</div>
+                            <p className="tracking-wide leading-6 font-medium opacity-60">
+                                Ma'rifatussalaam qur'anic boarding school student registration application is
+                                made to make it easier for students to register online.
+
+                            </p>
+                        </div>
+                        <div className="px-6 pt-4 pb-2 md:pb-4">
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Angular</span>
+
+                        </div>
+                    </div>
+
+                  
+                    <div
+                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
+                        onClick={linkBrofrank}>
+                        <img className="w-full" src="/portfolio/brofrank.png" alt="Mountain"/>
+                        <div className="px-6 py-4">
+                            <div className="font-bold text-xl mb-2">Brofrank</div>
+                            <p className="tracking-wide leading-6 font-medium opacity-60">
+                            Brofrank is a multidisciplinary creative agency with services ranging from brand identity building to comprehensive brand strategy conception.
+                            </p>
+                        </div>
+                        <div className="px-6 pt-4 pb-2 md:pb-4">
+                            <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Html</span>
+                                <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Scss</span>
+                                <span
+                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Javascript</span>
+
                         </div>
                     </div>
 
@@ -92,24 +186,6 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    <div
-                        className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
-                        onClick={linkPsb2}>
-                        <img className="w-full" src="/portfolio/psb2.png" alt="Mountain"/>
-                        <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">Revamp Student Registration App</div>
-                            <p className="tracking-wide leading-6 font-medium opacity-60">
-                                Ma'rifatussalaam qur'anic boarding school student registration application is
-                                made to make it easier for students to register online.
-
-                            </p>
-                        </div>
-                        <div className="px-6 pt-4 pb-2 md:pb-4">
-                            <span
-                                className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Angular</span>
-
-                        </div>
-                    </div>
 
                     <div
                         className="max-w-sm rounded overflow-hidden shadow-lg cursor-pointer pt-3"
