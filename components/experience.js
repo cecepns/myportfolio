@@ -26,6 +26,24 @@ function Experience() {
                                 size="lg"
                                 color="#4ade80"/>
                             <p className="tracking-wide leading-7 font-medium opacity-60 ml-8">
+                                PT GOTHRU MEDIA INDONESIA.
+                                <br></br>
+                                <span className="text-primary">November 2021 - present</span>
+                                <br></br>
+                                <span>
+                                    Frontend Developer.
+                                </span>
+                            </p>
+                        </div>
+
+                        <div className="bg-white relative shadow-sm p-6 my-6">
+
+                            <FontAwesomeIcon
+                                icon={faCheckCircle}
+                                className="absolute pt-1"
+                                size="lg"
+                                color="#4ade80"/>
+                            <p className="tracking-wide leading-7 font-medium opacity-60 ml-8">
                                 Ma'rifatussalaam Quranic Boarding School.
                                 <br></br>
                                 <span className="text-primary">November 2019 - 2021</span>
