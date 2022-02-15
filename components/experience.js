@@ -28,7 +28,7 @@ function Experience() {
                             <p className="tracking-wide leading-7 font-medium opacity-60 ml-8">
                                 PT GOTHRU MEDIA INDONESIA.
                                 <br></br>
-                                <span className="text-primary">November 2021 - present</span>
+                                <span className="text-primary">2021 - Present</span>
                                 <br></br>
                                 <span>
                                     Frontend Developer.
@@ -46,7 +46,7 @@ function Experience() {
                             <p className="tracking-wide leading-7 font-medium opacity-60 ml-8">
                                 Ma'rifatussalaam Quranic Boarding School.
                                 <br></br>
-                                <span className="text-primary">November 2019 - 2021</span>
+                                <span className="text-primary">2019 - 2021</span>
                                 <br></br>
                                 <span>
                                     Web Developer.
