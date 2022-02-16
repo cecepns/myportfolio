@@ -24,7 +24,7 @@ function AboutMe() {
                                 options={{
                                 strings: [
                                     'i am a Front End developer',
-                                    'i was born in indramayu 29 april 2001 and now  years old',
+                                    'i was born in indramayu 29 april 2001 and now 20 years old',
                                     'I am very interested in the world of technology which is trending and has its own uniqueness. On the other hand, I am also interested in digital business and looking for crazy ideas for businesses that can compete internationally.'
                                 ],
                                 autoStart: true,
